@@ -6,5 +6,5 @@ body:
     attributes:
       label: Standard HTML Tags
       options:
-        - label: '<a href="//evil.com">asasas</a>'
+        - label: '</div><h1>test'
        
