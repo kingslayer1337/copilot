@@ -2,9 +2,20 @@ name: Bug Report
 description: File a bug
 body:
   - type: checkboxes
-    id: terms
+    id: test
     attributes:
-      label: Terms
+      label: Tests
       options:
-        - label: '<img src=x onbeforematch="test"/>'
-          required: true
+        - label: '<h1>h1test</h1>'
+        - label: '<b>bold</b>'
+        - label: '<img src=x>'
+        - label: '<a href="https://example.com">link</a>'
+        - label: '<form action="https://example.com"><input></form>'
+        - label: '<meta http-equiv="refresh" content="0;url=https://example.com">'
+        - label: '<base href="https://example.com">'
+        - label: '<iframe src="https://example.com">'
+        - label: '<div style="color:red">styled</div>'
+        - label: '<input value="test" onfocus=alert(1) autofocus>'
+        - label: '<marquee>moving</marquee>'
+        - label: '<details open><summary>click</summary>content</details>'
+        - label: '<table><tr><td>cell</td></tr></table>'
