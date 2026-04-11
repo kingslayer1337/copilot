@@ -6,5 +6,5 @@ body:
     attributes:
       label: Terms
       options:
-        - label: '<h1>test</h1>'
+        - label: '<h1 class='text: red'>test</h1>'
           required: true
