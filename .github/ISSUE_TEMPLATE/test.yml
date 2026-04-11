@@ -6,5 +6,5 @@ body:
     attributes:
       label: Terms
       options:
-        - label: '<style>*{background: black;}</style>'
+        - label: '<h1>test</h1>'
           required: true
