@@ -1,0 +1,10 @@
+name: Bug Report
+description: File a bug
+body:
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      options:
+        - label: '<h1>test</h1>'
+          required: true
