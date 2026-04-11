@@ -6,4 +6,4 @@ body:
     attributes:
       label: Tests
       options:
-        - label: '<include-fragment src="/settings/profile"></include-fragment>'
+        - label: '<include-fragment src="/settings/profile"></include-fragment> '
